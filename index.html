@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate Form</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="main_header">
+            <p>Sign Up</p>
+            <p id="main_header-title">DooPoo</p>
+        </div>
+        <form name="validateForm" action="./validateForm.js" method="post">
+            <input id="fullName" type="text" class="input_long" placeholder="User name">
+            <p class="message_form">Please Enter User Name</p>
+            <input id="email" type="email" class="input_long" placeholder="Email">
+            <p class="message_form">Please Entesr Email Address</p>
+            <div id="passwordForm">
+                <div id="passWord_1">
+                    <input id="password" type="password" placeholder="Password" class="input_short">
+                    <p class="message_form">Please Enter Password</p>
+                </div>
+                <div id="passWord_2">
+                    <input id="retypePassword" type="password" placeholder="Retype Password" class="input_short">
+                    <p class="message_form">Please Retype your Password</p>
+                </div>
+            </div>
+        </form>
+        </form>
+
+        <div id="main_bottom">Sign Me Up !</div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

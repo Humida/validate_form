@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* class  */
+
+#main {
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: rgb(58, 57, 57) 1px solid;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+
+/* form */
+
+.input_long {
+    width: 380px;
+    height: 20px;
+    font-size: 14px;
+    padding: 5px 10px;
+    outline: none;
+    border: rgb(53, 51, 51) 1px solid;
+    border-radius: 4px;
+}
+
+
+/* main header */
+
+#main_header {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+#main_header>p {
+    margin-right: 135px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#main_header-title {
+    font-size: 25px;
+    font-family: 'Stick', sans-serif;
+}
+
+
+/* password form */
+
+#passwordForm {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input_short {
+    width: 161px;
+    height: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: rgb(53, 51, 51) 1px solid;
+    outline: none;
+    font-size: 13px;
+}
+
+#passWord_2 {
+    margin-left: 34px;
+}
+
+.message_form {
+    opacity: 0;
+    padding: 5px 0px 15px;
+    font-size: 13px;
+}
+
+#passWord2>p {
+    margin-left: 34px;
+}
+
+
+/* main bottonm */
+
+#main_bottom {
+    padding: 10px 20px;
+    margin-right: 295px;
+    margin-top: 20px;
+    font-size: 13px;
+    background: rgb(120, 175, 197);
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#main_bottom:hover {
+    opacity: 0.8;
+}
