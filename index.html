@@ -5,43 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>validate form</title>
+    <title>DooPoo</title>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
 </head>
 
 <body>
 
     <div id="main">
-        <form action="post" class="form">
+        <form action="post" class="form" id="form-one">
             <h3 class="heading">Sign Up !!!</h3>
             <p class="description">DooPoo devops</p>
             <div class="space"></div>
             <div class="form-group">
                 <label for="name" class="form-lable">Name</label>
+                <i class="fas fa-user"></i>
                 <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Enter your name">
-                <span class="form-message">Please enter name</span>
+                <span class="form-message" id="1">Please enter name</span>
             </div>
             <div class="form-group">
                 <label for="email" class="form-lable">Email</label>
+                <i class="fas fa-envelope"></i>
                 <input class="form-control" type="email" id="email" name="email" placeholder="Enter your email">
-                <span class="form-message">Please enter email</span>
+                <span class="form-message">Please enter your email again</span>
             </div>
             <div class="form-group">
                 <label for="password" class="form-lable">Password</label>
+                <i class="fas fa-lock"></i>
                 <input class="form-control" type="password" id="password" name="password" placeholder="Enter your password">
                 <span class="form-message">Please enter password</span>
             </div>
             <div class="form-group">
                 <label for="retype" class="form-lable">Retype password</label>
+                <i class="fas fa-lock"></i>
                 <input class="form-control" type="password" id="retypePassword" name="retypePassword" placeholder="Enter your retype password">
                 <span class="form-message">Please enter retype password</span>
             </div>
             <button id="button-submit">Sign up me !</button>
         </form>
     </div>
+    <script src="./validator.js" type="module"></script>
+    <script src="./app.js" type="module"></script>
 
+    <script>
+    </script>
 </body>
 
 </html>

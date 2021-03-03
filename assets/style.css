@@ -23,7 +23,7 @@ html {
     align-items: left;
     margin: 40px 0px;
     background: #fff;
-    width: 360px;
+    width: 340px;
     box-shadow: 2px 2px 2px 2px rgba(184, 178, 178, 0.2);
     padding: 0 20px;
     border-radius: 10px;
@@ -36,14 +36,21 @@ html {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
+    position: relative;
 }
 
 .form-control {
-    padding: 8px 5px 8px 30px;
+    position: relative;
+    padding: 8px 5px 8px 40px;
     font-size: 15px;
     outline: none;
     border-radius: 4px;
-    border: 1px #555 solid;
+    border: 2px #aaa solid;
+}
+
+.form-control:hover {
+    /* border: 2px rgb(50, 132, 146) solid; */
+    box-shadow: rgba(26, 94, 121, 0.12) 0px 2px 4px 0px, rgba(26, 94, 121, 0.4) 0px 2px 16px 0px;
 }
 
 .form-message {
@@ -51,7 +58,7 @@ html {
     color: red;
     font-weight: 100;
     line-height: 20px;
-    opacity: 1;
+    opacity: 0;
 }
 
 .form-lable {
@@ -68,12 +75,14 @@ html {
     font-size: 24px;
     color: rgb(50, 132, 146);
     margin-right: 10px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-weight: 700;
+    text-align: center;
 }
 
 .description {
-    margin-left: 97px;
+    /* margin-left: 97px; */
+    text-align: center;
     padding: 5px 0;
 }
 
@@ -89,4 +98,23 @@ html {
     outline: none;
     border: 0px;
     margin-top: 30px;
+}
+
+#button-submit:hover {
+    opacity: 0.7;
+}
+
+
+/* icon */
+
+.fas {
+    position: absolute;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: 14px;
+}
+
+.wrong {
+    border: 1px red solid;
+    box-shadow: 2px 2px 2px 2px rgba(253, 3, 3, 0.2);
 }
